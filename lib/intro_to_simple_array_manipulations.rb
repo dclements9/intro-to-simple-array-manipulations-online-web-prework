@@ -31,5 +31,6 @@ end
 def using_insert(array, element)
 
   array.insert(3, element)
-    binding.pry
+#    binding.pry
+    puts array
 end
