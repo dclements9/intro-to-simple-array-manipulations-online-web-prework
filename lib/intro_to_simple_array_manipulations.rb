@@ -29,6 +29,7 @@ def using_concat(array,second_array)
 end
 
 def using_insert(array, element)
-  binding.pry
+
   array.insert(3, element)
+    binding.pry
 end
