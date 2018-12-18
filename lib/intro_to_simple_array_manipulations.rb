@@ -1,3 +1,5 @@
+require 'pry'
+
 def using_push (array, string)
   array.push(string)
 end
@@ -27,5 +29,6 @@ def using_concat(array,second_array)
 end
 
 def using_insert(array, element)
+  binding.pry
   array.insert(3, element)
 end
